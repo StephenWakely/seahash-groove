@@ -1,7 +1,5 @@
-use criterion::{criterion_group, criterion_main, setup, BatchSize, Criterion};
-use seahash_groove::{File, IndexHandle};
-use std::collections::{BTreeMap, HashMap};
-use std::hash::Hasher;
+use criterion::{criterion_group, criterion_main, BatchSize, Criterion};
+use groove::setup;
 
 criterion_group!(
     name = benches;
